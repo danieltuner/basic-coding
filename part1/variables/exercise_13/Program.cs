@@ -9,6 +9,7 @@ namespace exercise_13
       // Write your code here:
       Console.WriteLine("Give a number!");
       string number = Console.ReadLine();
+      double number2 = Convert.ToDouble(number);
       Console.WriteLine("You gave " + number);
     }
   }
