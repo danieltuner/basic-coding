@@ -8,6 +8,10 @@ namespace exercise_41
     {
 
       // Write your code here:
+      int first = 1;
+      first = Convert.ToInt32(Console.ReadLine());
+      int product = first * first;
+      Console.WriteLine(product);
       
     }
   }

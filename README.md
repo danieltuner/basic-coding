@@ -22,7 +22,7 @@ The deadlines are every Sunday.
 | 2  | 02.02.2020 at 23:59| 31        |
 | 3  | 09.02.2020 at 23:59| 31        |
 | 4  | 16.02.2020 at 23:59| 29        |
-| 5  | 23.02.2020 at 23:59| XX        |
+| 5  | 01.03.2020 at 23:59| XX        |
 | 6  | 01.03.2020 at 23:59| XX        |
 
 The exercises might be in multiple sections **in the instructions**, to make it easier to comprehend. In the end, you should still have **only one program per exercise** to return in such case.   
@@ -2732,6 +2732,8 @@ Write a program that reads names of items from the user. If the name is empty, t
 
 Having read all the names, print all the items by using the ToString method of the Item class. The implementation of the Item class keeps track of the time of creation, in addition to the name of the item.
 
+NOTICE! The list has to be called "items" for the tests to work!
+
 Example print:
 ```console
 Name: Hammer
@@ -2851,7 +2853,7 @@ Pages: 662
 Publication year: 2007 
 Title:
 
-What information will be printed? name 
+What information will be printed? title 
 To Kill a Mockingbird 
 A Brief History of Time 
 Beautiful Code 
@@ -2889,13 +2891,13 @@ Write a program that reads strings from the user until the user inputs the strin
 
 #### Exercise_115
 
-Write a program that reads strings from the user until the user inputs the string "end". As long as the input is not "end", the program should handle the input as an integer and print the cube of the number provided (i.e., number _ number _ number). Below are some sample outputs
+Write a program that reads strings from the user until the user inputs the string "end". As long as the input is not "end", the program should handle the input as an integer and print the cube of the number provided (i.e., number * number * number). Below are some sample outputs
 
 ```console
 > 3 
 27 
 > -1 
-1 
+-1 
 > 11 
 1331 
 > end
@@ -2971,6 +2973,8 @@ Thank you!
 ```
 
 NOTICE! The exercise template comes with two files, names.txt and other-names.txt, which have the following contents. Do not change the contents of the files!
+
+NOTICE2! The exercise expects you to have a **string names** where you store the file!
 
 names.txt:
 

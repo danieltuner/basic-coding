@@ -8,6 +8,13 @@ namespace exercise_45
     {
 
       // Write your code here:
+      int start = 0;
+      int number = Convert.ToInt32(Console.ReadLine());
+      int end = number;
+      for (int i = start; i <= end; i++)
+      {
+        Console.WriteLine(i);
+      }
 
     }
   }
