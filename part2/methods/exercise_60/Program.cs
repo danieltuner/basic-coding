@@ -36,7 +36,6 @@ namespace exercise_60
       {
         PrintStars(size);
       }
-      Console.WriteLine("");
     }
 
     public static void PrintRectangle(int width, int height)
@@ -49,7 +48,7 @@ namespace exercise_60
 
     public static void PrintTriangle(int size)
     {
-      for (int i = 0; i <= size; i++)
+      for (int i = 1; i <= size; i++)
       {
         PrintStars(i);
       }
