@@ -10,7 +10,9 @@ namespace exercise_60
       PrintStars(3);
       PrintStars(9);
       Console.WriteLine("");
-
+      PrintSquare(4);
+      PrintRectangle(17, 3);
+      PrintTriangle(4);
     }
 
 
@@ -30,17 +32,27 @@ namespace exercise_60
 
     public static void PrintSquare(int size)
     {
-
+      for (int i = 0; i < size; i++)
+      {
+        PrintStars(size);
+      }
+      Console.WriteLine("");
     }
 
     public static void PrintRectangle(int width, int height)
     {
-
+      for (int i = 0; i < height; i++)
+      {
+        PrintStars(width);
+      }
     }
 
     public static void PrintTriangle(int size)
     {
-
+      for (int i = 0; i <= size; i++)
+      {
+        PrintStars(i);
+      }
     }
   }
 }
