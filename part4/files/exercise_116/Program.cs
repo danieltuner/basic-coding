@@ -9,7 +9,12 @@ namespace exercise_116
     {
       // Read the file data.txt and print the text from it as it is
       // You can use either File.ReadAllText or File.ReadAllLines
-      
+      string[] lines = File.ReadAllLines("data.txt");
+
+      foreach (string line in lines)
+      {
+        Console.WriteLine(line);
+      }
     }
   }
 }
