@@ -59,8 +59,20 @@ public class GradeRegister
 
   public double AverageOfGrades()
   {
+    int amountOfGrades = this.grades.Count;
+    if (this.grades.Count == 0)
+    {
+      return -1;
+    }
+    int sum = 0;
+    foreach (int givenGrade in grades)
+    {
+      sum += givenGrade;
+    }
+    double avarage = (double)sum / amountOfGrades;
+
     // Hint! You don't need to round the -1, but you do need it for all the other results...
-    return Math.Round(-1.0, 2);
+    return Math.Round(avarage, 2);
   }
 
   public double AverageOfPoints()
