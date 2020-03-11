@@ -72,7 +72,7 @@ public class GradeRegister
     double avarage = (double)sum / amountOfGrades;
 
     // Hint! You don't need to round the -1, but you do need it for all the other results...
-    return Math.Round(avarage, 2);
+    return Math.Round(ava, 2);
   }
 
   public double AverageOfPoints()
