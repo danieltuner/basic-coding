@@ -22,7 +22,7 @@ namespace extra_08
     {
       for (int i = 0; i < nr; i++)
       {
-        Console.WriteLine(" ");
+        Console.Write(" ");
       }
     }
     public static void ChristmasTree(int height)
