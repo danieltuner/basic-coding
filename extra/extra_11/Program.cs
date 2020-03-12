@@ -9,7 +9,7 @@ namespace extra_11
       // Add your code here:
       Console.WriteLine("Give a sentence:");
       string words = Console.ReadLine();
-      foreach
+      words.ForEach(Console.WriteLine);
 
     }
   }
