@@ -10,18 +10,19 @@ namespace extra_07
       Console.WriteLine("Give integers, 'end' quits:");
       
       int sum = 0;
-      string end = Console.ReadLine();
+      
       
       
       while (true)
       {
-        int input = Convert.ToInt32(Console.ReadLine());
-        sum += input;
+        string input =Console.ReadLine();
+        
 
-        if (end == "end")
+        if (input == "end")
         {
           break;
         }
+        sum += Convert.ToInt32(input);
       }
       Console.WriteLine("Sum: " + sum);
     }
