@@ -16,6 +16,7 @@ namespace Exercise
     public int CompareTo(Human another)
     {
       // BEGIN SOLUTION
+      if ()
       return 0;
       // END SOLUTION
     }
