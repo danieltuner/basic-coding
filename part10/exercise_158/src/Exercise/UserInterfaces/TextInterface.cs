@@ -8,10 +8,12 @@ namespace Exercise
     private List<Book> books;
     public TextInterface()
     {
+      this.books = new List<Book>();
     }
 
     public void Start()
     {
+      
     }
   }
 }
