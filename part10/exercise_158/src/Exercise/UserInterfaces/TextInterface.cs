@@ -19,7 +19,7 @@ namespace Exercise
         string name = Console.ReadLine();
         if (name == "")
         {
-          brea;
+          break;
         }
         Console.WriteLine("Input the age recommendation:");
         int age = Convert.ToInt32(Console.ReadLine());
