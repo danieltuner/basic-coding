@@ -36,7 +36,7 @@ namespace Exercise
       }
       else if (this.age > other.age)
       {
-        return 1;
+        return ;
       }
       else
       {
