@@ -9,6 +9,15 @@ namespace Exercise
 
     public Person(string name, int age)
     {
+      if (age < 0 || age > 120)
+      {
+        throw new ArgumentException();
+      }
+      if (name == null || name == "" || name.Length > 40)
+      {
+        throw new ArgumentException();
+      }
+
       this.name = name;
       this.age = age;
     }
