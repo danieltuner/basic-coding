@@ -4,6 +4,7 @@ using Exercise;
 using NUnit.Framework;
 using System.Text.RegularExpressions;
 
+
 namespace ProgramTests
 {
   [TestFixture]
@@ -29,7 +30,7 @@ namespace ProgramTests
     {
       // ADD USING STATEMENT HERE
       // We need a 'StringWriter sw'
-      
+      using (StringWriter sw = new StringWriter())
       {
         // Save a reference to the standard output.
         TextWriter stdout = Console.Out;
@@ -56,7 +57,7 @@ namespace ProgramTests
     {
       // ADD USING STATEMENT HERE
       // We need a 'StringWriter sw'
-
+      using (StringWriter sw = new StringWriter())
       {
         // Save a reference to the standard output.
         TextWriter stdout = Console.Out;
